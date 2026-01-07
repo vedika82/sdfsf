@@ -13,11 +13,18 @@ class ContentRating extends Component {
   render() {
     return (
      <>
-    <div className='content-rating'>
-    <p>
-    i am happy because i am sad
-    </p>
-     <div className='rating-buttons'></div>
+       <div className='content-rating'>
+        <p>
+        i am happy
+        </p>
+        <div className='rating-buttons'>
+        <button className="like-button">
+            Like ({this.state.likes})
+          </button>
+          <button className="dislike-button">
+            Dislike ({this.state.dislikes})
+          </button>
+        </div>
     </div>
      </>
     );
