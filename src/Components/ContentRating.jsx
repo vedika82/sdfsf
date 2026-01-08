@@ -41,7 +41,8 @@ class ContentRating extends Component {
           </button>
         </div>
        
-        <p>Total Ratings: {this.state.totalRatings}</p>
+        <p>Total Ratings: ({this.state.totalRatings})</p>
+        
     </div>
      </>
     );
