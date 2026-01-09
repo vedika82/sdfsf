@@ -1,6 +1,7 @@
 // import ContentRating from "./Components/ContentRating"
 import EventPlanner from "./Components/EventPlanner"
 import TodoList from "./Components/TodoList"
+import FetchData from "./Components/FetchData"
 import './App.css'
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
    <>
   {/* <EventPlanner/> */}
   {/* <ContentRating/> */}
-  <TodoList/>
+  {/* <TodoList/> */}
+  <FetchData/>
+
 
    </>
   )
